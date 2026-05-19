@@ -6,7 +6,8 @@
     --bg-skill: linear-gradient(to right, #ffffff 24%, #b3daff 52%);
     --bg-project: linear-gradient(to right, #ffffff 31%, #cbe2f6 52%);
     --bg-contact: linear-gradient(to right, #f8fbf8 31%, #a1bfff 52%);
-    --bg-footer: linear-gradient(to bottom, #1964ab  #cbe2f6);
+    --bg-kirim: linear-gradient(to right, #1964AB -30%, #ffffff 120%);
+    --bg-footer: linear-gradient(to bottom, #5f9bee -40%  #3b6fc4 100%);
     --text-main: #1E293B;
     --text-accent: #334155;
     --color-primary: #449CC8;
@@ -19,6 +20,7 @@ body.dark-mode{
     --bg-skill: linear-gradient(to right, #1e293b 0%, #162235 100%);
     --bg-project: linear-gradient(to right, #162235 0%, #0f172a 100%);
     --bg-contact: linear-gradient(to right, #162235 0%, #0f172a 100%);
+    --bg-kirim: linear-gradient(to right, #0f172a 0%, #070b14 100%)
     --bg-footer: linear-gradient(to bottom, #0f172a 0%, #070b14 100%);
     --text-main: #F8FAFC;
     --text-accent: #94A3B8;
@@ -466,9 +468,9 @@ body{
     border-radius: 15px;
 }
 
-.btn-gradient{
+.tombol-kirim{
     align-items: center;
-    background: var(--bg-footer) !important;
+    background: var(--bg-kirim) !important;
     border: none;
     color: white;
     font-weight: bold;
